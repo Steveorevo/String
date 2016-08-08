@@ -1,0 +1,27 @@
+{
+  "name": "String",
+  "description": "Provides extended string parsing functions. This function library is available in JavaScript. ActionScript, PHP, Lingo, Visual Basic, and Xojo.",
+  "version": "1.0.0",
+  "private": true,
+  "main": "String.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/steveorevo/String"
+  },
+  "maintainers": [
+    {
+      "name": "Stephen Carnam",
+      "url": "http://steveorevo.com/string"
+    }
+  ],
+  "contributors": [],
+  "bugs": {
+    "url": "http://github.com/steveorevo/String/issues"
+  },
+  "author": {
+    "name": "Stephen Carnam",
+    "url": "http://steveorevo.com"
+  },
+  "license": "GPLv2",
+  "readmeFilename": "README.md"
+}
