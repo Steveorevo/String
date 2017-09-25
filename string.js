@@ -1,17 +1,18 @@
 /**
- * String Class
+ * gstring extends native String object
  * 
- * Allows Strings to be handled as objects and features cross language
- * parsing functions del/get left/right, available in javascript, perl,
- * asp, php, realstudio, vb, lingo, etc. GPL or contact for commercial
- * lic. in a language near you ;-)
+ * Extends strings as objects with additional commonly used cross 
+ * language parsing features del/get left/right, available in 
+ * javascript, perl, asp, php, xojo, vb, lingo, NodeRED, etc. GPL
+ * or contact for commercial lic. in a language near you.  ;-)
  * 
+ * Format and trim added from Michael Scribellito 
  * 
- * @author  Stephen Carroll, Michael Scribellito
+ * @author  Stephen J. Carnam, Michael Scribellito
  * @date    2-24-2012
  * @link    http://steveorevo.com
  * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
- * copyright 2001-2014, Stephen Carroll
+ * copyright 2001-2018, Stephen J. Carnam
  */
 String.prototype.delRightMost=function(sFind){
   for (var i = this.length; i >= 0; i = i - 1) {
