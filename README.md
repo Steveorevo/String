@@ -1,3 +1,5 @@
+!!! This package is old, consider using https://github.com/steveorevo/string.js for your JavaScript string needs !!!
+
 <p align="center">
   <img src="https://raw.github.com/serverpress/String/master/logo.png" alt="String" />
 </p>
